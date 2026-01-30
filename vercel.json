@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/auth/code/:code",
+      "destination": "/api/auth?code=:code"
+    }
+  ]
+}
