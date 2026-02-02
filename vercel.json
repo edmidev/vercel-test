@@ -13,7 +13,8 @@
   "redirects": [
     {
       "source": "/auth/code/:code",
-      "destination": "/api/auth?code=:code"
+      "destination": "/api/auth?code=:code",
+      "permanent": true
     }
   ]
 }
